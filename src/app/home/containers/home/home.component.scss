@@ -1,0 +1,68 @@
+header {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  height: 80px;
+  // margin-left: -32px;
+  // margin-right: -32px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // padding-left: 32px;
+  // padding-right: 32px;
+
+  position: fixed;
+  top: 40px;
+  background-color: #ffffff;
+
+  // max-width: 100%;
+  // transition: all 0.3s ease 0s;
+
+  nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      gap: 48px;
+      list-style-type: none;
+
+      .active {
+        color: #ffba00;
+      }
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/assets/images/banner-bg.webp) center no-repeat;
+    background-size: cover;
+
+    .left-column {
+      flex: 5;
+
+      h1 {
+        font-size: 60px;
+        // line-height: 66px;
+        font-weight: 700;
+        // margin-bottom: 30px;
+      }
+    }
+
+    .right-column {
+      flex: 7;
+    }
+  }
+}
